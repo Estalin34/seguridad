@@ -1,0 +1,102 @@
+/* Reseteo de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://media.licdn.com/dms/image/v2/D5612AQE5cfaYxUbBTQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1659441080006?e=2147483647&v=beta&t=FXOO7uC20heeJgIC8Yt4X4v0yhEYod7te4CY-pxx8qw'); /* Ruta de la imagen */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #fff; /* Cambio de color de texto para contraste */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegura que la página ocupe toda la altura de la pantalla */
+}
+
+/* Navbar */
+header {
+    background-color: rgba(52, 152, 219, 0.9); /* Fondo más suave */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10; /* Para que la barra de navegación esté siempre visible */
+}
+
+.navbar h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con transparencia */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #34495e; /* Color más oscuro para el título */
+}
+
+/* Párrafos */
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #34495e; /* Color del texto */
+}
+
+/* Estilos para los botones */
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.button {
+    background-color: #2980b9;
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 250px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: #3498db;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(52, 152, 219, 0.9);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}

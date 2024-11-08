@@ -1,0 +1,162 @@
+/* Reseteo de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://d29jy8ovkd5kcx.cloudfront.net/wp-content/uploads/2023/02/24170328/Cifrado-simetrico.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+<<<<<<< HEAD
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+=======
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+>>>>>>> 7c623477b6c7717cabb2914a1ef5017de2fe0fcd
+}
+
+/* Contenedor principal */
+.container {
+<<<<<<< HEAD
+    max-width: 1100px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+=======
+    max-width: 900px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #3b3b3b;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Estilos de las tarjetas */
+.card {
+    background-color: #ffffff;
+    border: none;
+>>>>>>> 7c623477b6c7717cabb2914a1ef5017de2fe0fcd
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos */
+h2, h3 {
+    color: #34495e; /* Color para títulos */
+}
+
+/* Botones */
+button {
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+/* Botones de acción */
+.btn-primary {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.btn-primary:hover {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-success {
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+/* Textarea */
+textarea {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #34495e;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+}
+
+/* Button grupo */
+.button-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #2980b9;
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #3498db;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .button-group {
+        margin-top: 20px;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer p {
+    margin: 0;
+}
